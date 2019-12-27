@@ -45,7 +45,7 @@ const checkprice = function () {
     const updateTime = $("#divUpdate").text()
     jetty.clear();
     jetty.moveTo([0, 0]);
-    for (let i = 0; i < table_tr.length; i++) { // 走訪 tr
+    for (let i = 0; i < table_tr.length; i++) {
       const table_td = table_tr.eq(i).find('td');
       const name = table_td.eq(0).text();
       const price = table_td.eq(1).text();
